@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "node": "^20.18.0",
+    "nodemon": "^3.1.7"
+  },
+  "name": "swiggy-backend",
+  "version": "1.0.0",
+  "description": "Back end of Swiggy clone project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon src/app.js"
+  },
+  "author": "Logesh",
+  "license": "ISC"
+}
